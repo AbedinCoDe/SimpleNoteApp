@@ -52,13 +52,16 @@ body{
 .input_box {
     margin-top: 20px;
     width: 500px;
-    height: 100px;
     background: white;
     border-radius: 10px;
     outline: 0;
     padding: 10px 20px;
     position: relative;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
 }
+
 .input_box img {
     width: 28px;
     right: 10px;
